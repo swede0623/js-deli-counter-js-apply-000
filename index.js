@@ -40,7 +40,19 @@ function nowServing(katzDeli)
   
   if(katzDeli.length > 1)
   {
+<<<<<<< HEAD
     return "Currently serving " + katzDeli.shift() + "." 
+=======
+    //return "Currently serving " + katzDeli.shift() + "." 
+    
+    var removedCustomer = katzDeli[0]
+
+  
+    
+    return "Currently serving " + removedCustomer + "."
+  
+    
+>>>>>>> 0ffb6c66e820e58449f6fb4891c40c0f6855edcd
   }
 }
 
