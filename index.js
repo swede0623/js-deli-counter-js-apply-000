@@ -51,7 +51,7 @@ function nowServing(katzDeli)
     return "Currently serving " + removedCustomer + "."
   
     
->>>>>>> 0ffb6c66e820e58449f6fb4891c40c0f6855edcd
+
   }
 }
 
