@@ -1,4 +1,5 @@
 
+var num = 1
 
 function takeANumber(katzDeli, newCustomer)
 {
@@ -30,6 +31,15 @@ function takeANumber(katzDeli, newCustomer)
   
 }
 
+function takeANumber (katzDeliLine)
+{
+  
+  katzDeliLine.push(num)
+  num++
+  
+}
+
+
 function nowServing(katzDeli)
 {
   
@@ -50,8 +60,7 @@ function nowServing(katzDeli)
     
     return "Currently serving " + removedCustomer + "."
   
-    
-
+  
   }
 }
 
