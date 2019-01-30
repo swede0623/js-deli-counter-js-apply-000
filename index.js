@@ -40,9 +40,8 @@ function nowServing(katzDeli)
   
   if(katzDeli.length > 1)
   {
-<<<<<<< HEAD
     return "Currently serving " + katzDeli.shift() + "." 
-=======
+
     //return "Currently serving " + katzDeli.shift() + "." 
     
     var removedCustomer = katzDeli[0]
